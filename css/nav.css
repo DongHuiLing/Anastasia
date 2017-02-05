@@ -1,0 +1,365 @@
+/*---------------------导航条部分----------------------------*/
+.container
+{
+	width:100%;height:auto !important;
+}
+.container>.nav
+{
+	width:100%;
+	height:0.6rem;
+	background: #170c10;
+}
+.container>.nav li
+{
+	text-align: center;
+
+}
+
+.container>.nav>ul>li:first-child a:hover
+{
+	border-bottom:none !important;
+}
+.container>.nav>ul>li:nth-child(3) a:hover
+{
+	border-bottom:none !important;
+}
+.container>.nav a:hover
+{
+	border-bottom:0.03rem solid #fff !important;
+	color:#fff !important;
+}
+	
+.container>.nav a
+{
+	display: block;
+	font:bold 0.15rem "微软雅黑";
+	color:#b9afae;
+	margin-top: 0.12rem;
+}
+
+.container>.nav>ul
+{
+	width:100%;
+	height:100%;
+}
+.container>.nav>ul>li
+{
+	float:left;
+	height:80%;
+}
+
+.container>.nav>ul>li:nth-child(1)
+{
+	height:100%;
+	width:15%;
+}
+.container>.nav>ul>li:nth-child(1)>a
+{
+	font:bold 0.2rem "微软雅黑";
+	color:#fff;	
+	margin-left: 18%;
+	
+}
+.container>.nav>ul>li:nth-child(2)
+{
+	width:45%;
+	margin-left: 4%;
+}
+.container>.nav>ul>li:nth-child(2)>ul
+{
+	height:100%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li
+{
+	height:100%;
+	width:19%;
+	float:left;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li:first-child
+{
+	width:10%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li:first-child>a
+{
+	margin-left:8%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li>a
+{
+	margin-top: 0.17rem;
+	margin-left:12%; 
+}
+.container>.nav>ul>li:nth-child(3)
+{
+	height:100%;
+	width:35%;
+}
+.container>.nav>ul>li:nth-child(3)>ul
+{
+	height:100%;
+	width:100%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li
+{
+	height:100%;
+	float:left;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li>a
+{
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(1)
+{
+	width:6%;
+	margin-right: 1%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(1)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(2)
+{
+	width:6%;
+	margin-right: 1%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(2)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(3)
+{
+	width:35%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(4)
+{
+	width:7%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(4)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(5)
+{
+	width:40%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li>a
+{
+	font:0.15rem "微软雅黑";
+	margin-top: 0.15rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(3)>a
+{
+	
+	font:0.18rem "Buxton Sketch";
+}
+.container>.nav>ul>li:nth-child(2)>div li
+{
+	font:0.14rem "微软雅黑";
+}
+
+#droplist_ul>li>ul
+{
+	position: absolute;
+	display: none;
+	height:auto;
+	z-index: 999;
+	width: 8rem;
+	float: left;
+	margin-top: 0.11rem;
+	left:2.5rem;
+}
+#droplist_ul>li>ul>li
+{
+	float:left;
+	color:#fff;
+	margin-top: 0.21rem;
+}
+#droplist_ul>li>ul>li:first-child
+{
+	height:4.5rem;
+	width:2.5rem;
+	background:#372d2b;
+	
+}
+#droplist_ul>li>ul>li:last-child
+{
+	float:right;
+	width:5.5rem;
+	background: #fff;
+}
+#droplist_ul>li>ul>li:last-child>img
+{
+	display: block;
+	margin:0.25rem;
+}
+#droplist_ul>li>ul>li:first-child>ul>li
+{
+	text-align: center;
+	height:0.4rem;
+}
+#droplist_ul>li>ul>li span
+{
+	display: block;
+	color:#fff !important;
+	font:0.15rem "微软雅黑";
+}
+#droplist_ul>li>ul>li span:hover
+{
+	cursor: pointer;
+}
+#droplist_ul>li>ul>li:first-child>ul>li:first-child>span
+{
+	font:0.3rem "微软雅黑" !important;
+	margin-top: 0.8rem;
+}
+#droplist_ul>li>ul>li:first-child>ul>li>span
+{
+	font:0.2rem "微软雅黑" !important;
+	margin-top: 0.25rem;
+
+}
+#droplist_ul>li>ul>li:first-child>ul>li>span:hover
+{
+	background-color: #fff;
+	color:#372d2b !important;
+}
+#droplist_ul>li>ul>li:first-child>ul>li:nth-child(2)>span
+{
+	margin-top: 0.35rem !important;
+}
+#droplist_ul>li:first-child>ul>li>span:hover
+{
+	color:#ccc !important;
+
+}
+#n5>ul
+{
+	position: absolute;
+	display: none;
+	height:auto !important;
+	z-index: 999;
+	width: 5rem;
+	float: left;
+	margin-top: 0.11rem;
+	left:8rem;
+}
+#n5>ul>li
+{
+	float:left;
+	color:#fff;
+	margin-top: 0.21rem;
+	
+}
+#n5>ul>li
+{
+	font:0.15rem "微软雅黑";
+}
+#n5>ul>li:first-child
+{
+	background: #ebeae5;
+	width:3rem;
+	float:left;
+	height:2.36rem;
+}
+#n5>ul>li:first-child>h3
+{
+	margin-top: 0.1rem;
+}
+#n5>ul>li:first-child form input
+{
+	margin-top: 0.1rem;
+}
+#n5>ul>li:first-child form .submit
+{
+	width:0.6rem;
+	height:0.3rem;
+	background: #533f34;
+	color:#fff;
+	text-align: center;
+	margin-bottom: 0.2rem;
+}
+#n5>ul>li:last-child
+{
+	width:2rem;
+	float:left;
+	background: #f4f4f3;
+	color:#533f34;
+	font:0.13rem "微软雅黑";
+	height:2.36rem;
+}
+#n5>ul>li:last-child>ul
+{
+}
+#n5>ul>li:last-child>ul>li:first-child
+{
+	margin-top: 0.4rem;
+	font:0.15rem "微软雅黑";
+}
+#n5>ul>li:last-child>ul>li:nth-child(2)
+{
+	width:80%;
+	text-align: center;
+	margin-top: 0.2rem;
+	margin-left: 12%;
+}
+#n5>ul>li:last-child>ul>li:last-child
+{
+	overflow: hidden;
+	margin:0 auto;
+	width:1.8rem;
+	height:0.4rem;
+	margin-top: 0.4rem;
+	background: #563e32;
+}
+#n5>ul>li:last-child>ul>li:last-child>a
+{
+	width:100%;
+	height:100%;
+	color:#fff !important;
+	display: block;
+	margin-top: 0.1rem !important;
+}
+
+
+/*-------------------鼠标划过颜色变化-----------------------*/
+
+.container span:hover
+{
+	color:#3f50f7;
+}
+.container a:hover
+{
+	color:#3f50f7;
+}
+.container .nav a:hover
+{
+	color:#7f400d;
+}
+
+/*--------------------footer部分的动画--------------------------*/
+.footer-image
+{
+	transition:transform 0.4s 0.1s;
+} 
+.footer-image:hover
+{
+	transform:scale(1.2,1.2);
+} 
+/*---------------------css3-logo动态效果-----------------------*/
+#dh
+{
+	animation-name:dd;                    /*设置动画的名称*/
+	animation-timing-function:linear;     /*设置动画的样式*/
+	animation-duration:3s;                /*设置动画的变化方式匀速*/
+	animation-delay:1s;                   /*设置动画延迟一秒之后执行*/
+	animation-iteration-count:infinite;   
+}
+@keyframes 
+dd
+{
+	50%
+	{
+		transform:scale(1.3,1.3);
+	}
+}
+
+
+

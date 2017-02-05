@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/biaodan.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/biaodan1.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+</head>
+<body>
+	<section>
+		<nav>
+			<ul>
+				<li id="dh"><a href="">Anastasia</a></li>
+				<li>
+					<ul id="droplist_ul">
+						<li id="n0"><a href="index.html">首页</a></li>
+						<li id="n1"><a href="profile.html">关于我们</a></li>
+						<li id="n2"><a href="products.html">产品展示</a>
+							<ul>
+								<li>
+									<ul>
+										<li><span>Anastasia世界</span></li>
+										<li><span>时装与配饰</span></li>
+										<li><span>香氛与美妆</span></li>
+										<li><span>珠宝与腕表</span></li>
+									</ul>
+								</li>
+								<li>
+									<img src="image/nav-11.png" alt="">
+								</li>
+							</ul>
+						</li>
+						<li id="n3"><a href="news.html">新闻资讯</a>
+							<ul>
+								<li>
+									<ul>
+										<li><span>新闻资讯</span></li>
+										<li><span>时装与配饰资讯</span></li>
+										<li><span>香氛与美妆资讯</span></li>
+										<li><span>珠宝与腕表资讯</span></li>
+									</ul>
+								</li>
+								<li>
+									<img src="image/nav-22.png" alt="">
+								</li>
+							</ul>
+						</li>
+						<li id="n4"><a href="contact.html">联系我们</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="droplist_ul">
+						<li><a href=""><img src="image/fdj.png" alt=""></a></li>
+						<li><a href=""><img src="image/ax.png" alt=""></a></li>
+						<li id="n5"><a href="biaodan.html">My Anastasia</a>
+							<ul>
+								<li>
+									<h3>会员登录</h3><br>
+									<h4>我已有一个账户</h4><br>
+									<form action="">
+										<label for="">用户名*</label>
+										<input type="text"><br>	&nbsp;&nbsp;								
+										<label for="">密码*</label>
+										<input type="password"><br>
+										<label for=""><span><u>忘记密码？</u></span></label><br>
+										<input type="submit" value="提交" class="submit">
+									</form>
+								</li>
+								<li>
+									<ul>
+										<li>我没有注册过任何账户</li>
+										<li>创建个人账户以获取更多专属特权和丰富体验</li>
+										<li><a href="biaodan.html">创建我的Anastasia账户</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href=""><img src="image/wh.png" alt=""></a></li>
+						<li><a href="">012 3567 891</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</nav>
+		</section> 
+		<section class="container">
+			<section class="left">
+				<ul>
+					<li>创建一个我的Anastasia账户</li>
+					<li><a href="">我已有一个账户</a></li>
+				</ul>
+				<h3>创建个人账户，以获取更多专属资讯和丰富体验。</h3>
+				<form action="" name="formes">
+					<p>个人信息</p>
+					<div>
+						<label for="">称谓</label>
+						<input type="text" class="num1 required" id="username" name="username">
+					</div>
+					
+					<br>
+					<div>
+						<label for="">中文名字</label>
+						<input type="text" id="chineseName">
+					</div>
+					<br>
+					<div>
+						<label for="">中文姓氏</label>
+						<input type="text" id="xing">
+					</div>
+					<br>
+					<div>
+						<label for="">英文名字</label>
+						<input type="text">
+					</div>
+					<br>
+					<div>
+						<label for="">英文姓氏</label>
+						<input type="text">
+					</div>
+					<br>
+					<div>
+						<label for="">国家</label>
+						<input type="text" class="num2" id="country">
+					</div>
+					<br>
+
+					<p>登录信息</p>
+					<div>
+						<label for="">Email</label>
+						<input type="email" class="num3 required email" id="email1" name="email1">
+					</div>
+					<br>
+					<div>
+						<label for="">确认Email地址</label>
+						<input type="email" class="num4 required email" id="email2" name="email2">
+					</div>
+					<br>
+					<div>
+						<label for="">密码</label>
+						<input type="password" class="num5 required" id="password1" name="password1">
+					</div>
+					<br>
+					<div>
+						<label for="">确认密码</label>
+						<input type="password" class="required" id="password2" name="password2">
+					</div>
+					<br>
+					<input type="checkbox" class="last">接收路易威登电子报，了解路易威登相关资讯、产品及最新活动信息。
+					<br>
+					<br>
+					<input type="submit" value="提交" class="tijiao" id="send" onClick="return check()">
+				</form>
+			</section>
+			<section class="right">
+				<ul>
+					<li>顾客服务中心</li>
+					<li><img src="image/phone.png" alt=""><span>012 3567 891</span></li>
+					<li>
+						<ul>
+							<li>关于您的路易威登账户</li>
+							<li>通过创建一个路易威登账户，您将享有以下特权：</li>
+							<li>- 管理您的个人信息</li>
+							<li>- 订阅路易威登电子报</li>
+							<li>- 保存您的愿望录以便在其他设备上继续访问</li>
+						</ul>
+					</li>
+					<li><a href="">EMAIL 我们</a></li>
+				</ul>
+			</section> 
+			
+		</section>
+		<footer>
+			<p>版权所有 Anastasia跨国公司</p>
+		</footer>
+</body>
+</html>

@@ -1,0 +1,848 @@
+/*第一步复位*/
+body,ul,li,h1,h2,h3,h4,h5,h6
+{
+	padding: 0;
+	margin:0;
+}
+a
+{
+	text-decoration: none !important;
+	color:#000;
+}
+ul
+{
+	list-style:none;
+}
+html
+{
+	font-size: 100px;
+}
+
+/*----------------------------------banner条--------------------------------*/
+.content
+{
+	width:10.24rem;
+	height:auto !important;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+.content .banner
+{
+	width:100%;
+	height:6.57rem;
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+}
+.content .banner img
+{
+	width:100%;
+	display: block;
+}
+.banner ul:first-child{
+	height:100%;
+	position: absolute;
+}
+.banner ul:first-child li{
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner ul:first-child li div{
+	position: absolute;
+	overflow: hidden;
+}
+.banner .btn{
+	position: absolute;
+	width: 7.8rem;
+	height: 0.1rem;
+	padding: 0.05rem 0.1rem;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+}
+.banner .preNext{
+	width: 0.45rem;
+	height: 1rem;
+	position: absolute;
+	top: 2.8rem;
+	cursor: pointer;
+}
+.banner .pre{
+	left: 0.08rem;
+	background: url(../image/left.png) no-repeat 0 0;
+}
+.banner .next{
+	right: 0;
+	background: url(../image/right.png) no-repeat 0 0;
+}
+/*.banner ul:nth-child(2)
+{
+	position: absolute;
+	top:5.5rem;
+	left:3rem;
+}
+.banner ul:nth-child(2)>li
+{
+	text-align: center;
+	font:0.14rem "微软雅黑";
+	width:0.2rem;
+	height:0.2rem;
+	background: #fff;
+	float:left;
+	margin-left: 0.1rem;
+}*/
+/*----------------------------info1------------------------------*/
+.info1
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info1 a
+{
+	display: block;
+}
+.info1>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info1>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info1>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info1>ul>li:last-child
+{
+	float: right;
+}
+.info1>ul>li>ul
+{
+	
+}
+.info1>ul>li:first-child>ul>li
+{
+	
+}
+.info1>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info1>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info1>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.35rem;
+}
+.info1>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info1>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.3rem;
+}
+.info1>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info1>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info1>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info1>ul>li>ul>li>a
+{
+	
+}
+.info1>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info1>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info1>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+
+/*----------------------------info2------------------------------*/
+.info2
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info2 a
+{
+	display: block;
+}
+.info2>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info2>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info2>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info2>ul>li:last-child
+{
+	float: right;
+}
+.info2>ul>li>ul
+{
+	
+}
+.info2>ul>li:first-child>ul>li
+{
+	
+}
+.info2>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info2>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info2>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info2>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info2>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info2>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info2>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info2>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info2>ul>li>ul>li>a
+{
+	
+}
+.info2>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info2>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info2>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+
+/*----------------------------info3------------------------------*/
+.info3
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info3 a
+{
+	display: block;
+}
+.info3>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info3>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info3>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info3>ul>li:last-child
+{
+	float: right;
+}
+.info3>ul>li>ul
+{
+	
+}
+.info3>ul>li:first-child>ul>li
+{
+	
+}
+.info3>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info3>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info3>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.35rem;
+}
+.info3>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info3>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.3rem;
+}
+.info3>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info3>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info3>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info3>ul>li>ul>li>a
+{
+	
+}
+.info3>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info3>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info3>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+/*----------------------------info4------------------------------*/
+.info4
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info4 a
+{
+	display: block;
+}
+.info4>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info4>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info4>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info4>ul>li:last-child
+{
+	float: right;
+}
+.info4>ul>li>ul
+{
+	
+}
+.info4>ul>li:first-child>ul>li
+{
+	
+}
+.info4>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info4>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info4>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.35rem;
+}
+.info4>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info4>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.3rem;
+}
+.info4>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info4>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info4>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info4>ul>li>ul>li>a
+{
+	
+}
+.info4>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info4>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info4>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+/*----------------------------info5------------------------------*/
+.info5
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info5 a
+{
+	display: block;
+}
+.info5>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info5>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info5>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info5>ul>li:last-child
+{
+	float: right;
+}
+.info5>ul>li>ul
+{
+	
+}
+.info5>ul>li:first-child>ul>li
+{
+	
+}
+.info5>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info5>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info5>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.35rem;
+}
+.info5>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info5>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.3rem;
+}
+.info5>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info5>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info5>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info5>ul>li>ul>li>a
+{
+	
+}
+.info5>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info5>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info5>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+/*----------------------------info6------------------------------*/
+.info6
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info6 a
+{
+	display: block;
+}
+.info6>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info6>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info6>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info6>ul>li:last-child
+{
+	float: right;
+}
+.info6>ul>li>ul
+{
+	
+}
+.info6>ul>li:first-child>ul>li
+{
+	
+}
+.info6>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info6>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info6>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info6>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info6>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info6>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info6>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info6>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info6>ul>li>ul>li>a
+{
+	
+}
+.info6>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info6>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info6>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+/*----------------------------info7------------------------------*/
+.info7
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info7 a
+{
+	display: block;
+}
+.info7>ul
+{
+	width:100%;
+	height:100%;
+	/*border:1px solid #0f0;*/
+}
+.info7>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+	/*border:1px solid #00f;*/
+	/*//margin-left: 0.9rem;*/
+}
+.info7>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info7>ul>li:last-child
+{
+	float: right;
+}
+.info7>ul>li>ul
+{
+	
+}
+.info7>ul>li:first-child>ul>li
+{
+	
+}
+.info7>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info7>ul>li:first-child>ul>li:first-child
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info7>ul>li:first-child>ul>li:nth-child(2)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info7>ul>li:first-child>ul>li:nth-child(3)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.1rem;
+}
+.info7>ul>li:first-child>ul>li:nth-child(4)
+{
+	/*border:1px solid #f00;*/
+	margin-top: 0.2rem;
+}
+.info7>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info7>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info7>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info7>ul>li>ul>li>a
+{
+	
+}
+.info7>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info7>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info7>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+/*-------------------------------info-----------------------------------*/
+.info>ul>li:last-child>ul>li:last-child img
+{
+	transition:transform 0.4s 0.1s;
+}
+.info>ul>li:last-child>ul>li:last-child img:hover
+{
+	transform:scale(1,1.2);
+}
+.info>ul>li:first-child>ul>li:first-child a:hover
+{
+	text-shadow:-0.01rem -0.01rem 0rem #3f50f7 !important;
+}
+/*-------------------------------footer---------------------------------*/
+.footer
+{
+	width:100%;
+	height:0.3rem;
+	margin-top: 0.8rem;
+}
+.footer>p
+{
+	width:1.6rem;
+	height:100%;
+	margin:0 auto;
+	font:0.12rem "Adobe 黑体 Std";
+}
+
+
+
+
+
+
+
+
+
+

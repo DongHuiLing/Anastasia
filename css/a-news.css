@@ -1,0 +1,178 @@
+/*第一步复位*/
+body,ul,li,h1,h2,h3,h4,h5,h6
+{
+	padding: 0;
+	margin:0;
+}
+
+/*-webkit-text-size-adjust:none;*/
+a
+{
+	text-decoration: none !important;
+	color:#000;
+}
+ul
+{
+	list-style:none;
+}
+html
+{
+	font-size: 100px;
+}
+
+
+/*----------------------content------------------------------*/
+.content
+{
+	width:10rem;
+	height:auto !important;
+	margin:0 auto;
+}
+.content>.head
+{
+	width:100%;
+	height:auto !important;
+	margin-top: 0.3rem;
+}
+.content>.head>h1
+{
+	font:0.3rem "Adobe 黑体 Std";
+}
+.content>.head>p:nth-child(2)
+{
+	font:0.1rem "Adobe 黑体 Std";
+}
+.content>.head>p:nth-child(3)
+{
+	font:0.16rem "Adobe 黑体 Std";
+}
+.content>ul:nth-child(2)
+{
+	overflow: auto;
+}
+.content>ul:nth-child(2)>li
+{
+}
+.content>ul:nth-child(2)>li:first-child
+{
+	font:0.14rem "Adobe 黑体 Std";
+	width:4rem;
+	height:2rem;
+	text-indent: 0.3rem;
+	margin-top: 0.5rem;
+	float:left;
+}
+.content>ul:nth-child(2)>li:last-child
+{
+	float:right;
+}
+.content>ul:nth-child(2)>li:last-child>img
+{
+	vertical-align: bottom;
+}
+
+.content>ul:nth-child(2)>li:last-child>img
+{
+	transition:transform 0.4s 0.1s;
+} 
+.content>ul:nth-child(2)>li:last-child>img:hover
+{
+	transform:scale(0.9,0.9);
+} 
+
+.content>p
+{
+	width:100%;
+	height:auto !important;
+	font:0.12rem "Adobe 黑体 Std";
+}
+.content>p:nth-child(3)
+{
+	margin-top: 0.4rem;
+}
+.content>div:last-child
+{
+	margin-top: 0.5rem;
+	border:0.01rem solid #dedede;
+}
+
+/*---------------------------footer--------------------------*/
+.footer
+{
+	margin-top: 0.5rem;
+	width:100%;
+}
+.footer a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.footer>ul
+{
+	width:100%;
+	height:100%;
+}
+.footer>ul>li
+{
+}
+.footer>ul>li:first-child
+{
+	height:0.2rem;
+	width:2.8rem;
+	margin:0 auto;
+	
+}
+.footer>ul>li:first-child>ul
+{
+	width:100%;
+	height:100%;
+}
+.footer>ul>li:first-child>ul>li
+{
+	margin-right: 0.3rem;
+	float:left;
+}
+.footer>ul>li:first-child>ul>li>a
+{
+	display: block;
+}
+.footer>ul>li:nth-child(2)
+{
+	height:1rem;
+	width:1.05rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+	border-bottom:0.01rem solid #c3c1c1;
+	border-top:0.01rem solid #c3c1c1;
+}
+.footer>ul>li:nth-child(2)>ul
+{
+	width:100%;
+	height:100%;
+}
+.footer>ul>li:nth-child(2)>ul>li
+{
+	width:0.8rem;
+	font:0.12rem "Adobe 黑体 Std";
+	margin:0 auto;
+}
+.footer>ul>li:nth-child(2)>ul>li:first-child
+{
+	margin-top: 0.05rem;
+}
+.footer>ul>li:nth-child(2)>ul>li:last-child
+{
+	margin-top: 0.15rem;
+	margin-left: 0.2rem;
+}
+.footer>ul>li:nth-child(3)
+{
+	width:1.6rem;
+	height:0.3rem;
+	font:0.12rem "Adobe 黑体 Std";
+	margin:0 auto; 
+	margin-top: 0.6rem;
+}
+
+
+
+

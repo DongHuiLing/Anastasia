@@ -1,0 +1,577 @@
+/*第一步复位*/
+body,ul,li,h1,h2,h3,h4,h5,h6
+{
+	padding: 0;
+	margin:0;
+}
+a
+{
+	text-decoration: none !important;
+	color:#000;
+}
+ul
+{
+	list-style:none;
+}
+html
+{
+	font-size: 100px;
+}
+
+/*---------------------导航条部分----------------------------*/
+.container
+{
+	width:100%;
+	height:auto !important;
+}
+.container>.nav
+{
+	width:100%;
+	height:0.6rem;
+	background: #170c10;
+}
+.container>.nav a
+{
+	display: block;
+	font:bold 0.15rem "微软雅黑";
+	color:#b9afae;
+	margin-top: 0.12rem;
+}
+.container>.nav>ul
+{
+	width:100%;
+	height:100%;
+}
+.container>.nav>ul>li
+{
+	float:left;
+	height:100%;
+}
+
+.container>.nav>ul>li:nth-child(1)
+{
+	height:100%;
+	width:15%;
+}
+.container>.nav>ul>li:nth-child(1)>a
+{
+	font:bold 0.2rem "微软雅黑";
+	color:#fff;	
+	margin-left: 18%;
+	
+}
+.container>.nav>ul>li:nth-child(2)
+{
+	width:45%;
+	margin-left: 4%;
+}
+.container>.nav>ul>li:nth-child(2)>ul
+{
+	height:100%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li
+{
+	height:100%;
+	width:19%;
+	float:left;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li:first-child
+{
+	width:10%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li:first-child>a
+{
+	margin-left:8%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li>a
+{
+	margin-top: 0.17rem;
+	margin-left:12%; 
+}
+.container>.nav>ul>li:nth-child(3)
+{
+	height:100%;
+	width:35%;
+}
+.container>.nav>ul>li:nth-child(3)>ul
+{
+	height:100%;
+	width:100%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li
+{
+	height:100%;
+	float:left;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li>a
+{
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(1)
+{
+	width:6%;
+	margin-right: 1%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(1)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(2)
+{
+	width:6%;
+	margin-right: 1%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(2)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(3)
+{
+	width:35%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(4)
+{
+	width:7%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(4)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(5)
+{
+	width:40%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li>a
+{
+	font:0.15rem "微软雅黑";
+	margin-top: 0.15rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(3)>a
+{
+	
+	font:0.18rem "Buxton Sketch";
+}
+
+
+/*----------------------------------banner条--------------------------------*/
+.content
+{
+	width:10.24rem;
+	height:auto !important;
+	margin:0 auto;
+	margin-top: 0.1rem;
+}
+.content .banner
+{
+	width:100%;
+	height:6.3rem;
+	overflow: hidden;
+	position: relative;
+	/*background-size: cover;*/
+}
+.content .banner img
+{
+	width:100%;
+	display: block;
+}
+.banner ul:first-child
+{
+	width:30.72rem;
+	height:100%;
+	position: absolute;
+}
+.banner ul:first-child li
+{
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+/*.banner ul:first-child>li>a
+{
+	width:0.3rem;
+	height:0.5rem;
+	background: red;
+}*/
+.banner ul:first-child
+{
+	position: relative;
+}
+.banner ul:nth-child(2)
+{
+	position: absolute;
+	top:5.5rem;
+	left:0.5rem;
+}
+.banner ul:nth-child(2)>li
+{
+	width:0.18rem;
+	height:0.18rem;
+	border-radius: 50%;
+	background: #fff;
+	float:left;
+	margin-left: 0.1rem;
+}
+.onon
+{
+	background: #faf7f7 !important;
+}
+.banner p
+{
+	position: absolute;
+	color:#fff;
+	left:0.7rem;
+	top:1.8rem;
+	font: 0.5rem "Droid Serif";
+}
+.banner p span
+{
+	display: block;
+	font: 0.3rem "Droid Serif";
+}
+.banner p span:hover
+{
+	color:#fff;
+}
+
+
+
+
+
+/*----------------------------info1------------------------------*/
+.info1
+{
+	width:100%;
+	height:2.4rem;
+	border-top: 0.01rem solid #c3c1c1;
+	margin-top: 0.25rem;
+/*	border:1px solid #f00;*/
+}
+.info1 a
+{
+	display: block;
+}
+.info1>ul
+{
+	width:100%;
+	height:100%;
+}
+.info1>ul>li
+{
+	width:3rem;
+	height:100%;
+	float:left;
+}
+.info1>ul>li:first-child
+{
+	margin-left: 0.5rem;
+}
+.info1>ul>li:last-child
+{
+	float: right;
+}
+.info1>ul>li>ul>li:first-child>a
+{
+	font:0.18rem "Adobe 黑体 Std";
+}
+.info1>ul>li:first-child>ul>li:first-child
+{
+	margin-top: 0.2rem;
+}
+.info1>ul>li:first-child>ul>li:nth-child(2)
+{
+	margin-top: 0.35rem;
+}
+.info1>ul>li:first-child>ul>li:nth-child(3)
+{
+	margin-top: 0.1rem;
+}
+.info1>ul>li:first-child>ul>li:nth-child(4)
+{
+	margin-top: 0.3rem;
+}
+.info1>ul>li>ul>li:nth-child(2)>a
+{
+	font:0.09rem "Adobe 黑体 Std";
+}
+.info1>ul>li>ul>li:nth-child(3)>a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.info1>ul>li>ul>li:nth-child(4)>a
+{
+	font:0.14rem "Adobe 黑体 Std";
+	text-decoration: underline !important;
+}
+.info1>ul>li>ul>li>a
+{
+	
+}
+.info1>ul>li:last-child>ul
+{
+	/*border:1px solid #f00;*/
+}
+.info1>ul>li:last-child>ul>li>a
+{
+	/*border:0.01rem solid #f00;*/
+	
+	/*margin-left: 2rem;*/
+	font:0.10rem "Adobe 黑体 Std";
+}
+.info1>ul>li:last-child>ul>li:first-child>a
+{
+	width:1rem;
+	margin-left: 2rem;
+}
+
+
+/*------------------------新款上市-----------------------------*/
+.content>.news
+{
+	width:100%;
+	height:0.5rem;
+	border-bottom:0.02rem solid #c3c1c1;
+	margin-top: 0.2rem;
+}
+.content>.news>h2
+{
+	width:100%;
+	height:100%;
+}
+.content>.news>h2>a
+{
+	font:0.24rem "Adobe 黑体 Std";
+	display: block;
+}
+
+
+
+/*---------------------------footer--------------------------*/
+.footer
+{
+	margin-top: 0.6rem;
+	width:100%;
+}
+.footer a
+{
+	font:0.12rem "Adobe 黑体 Std";
+}
+.footer>ul
+{
+	width:100%;
+	height:100%;
+}
+.footer>ul>li
+{
+}
+.footer>ul>li:first-child
+{
+	height:0.2rem;
+	width:2.8rem;
+	margin:0 auto;
+	
+}
+.footer>ul>li:first-child>ul
+{
+	width:100%;
+	height:100%;
+}
+.footer>ul>li:first-child>ul>li
+{
+	margin-right: 0.3rem;
+	float:left;
+}
+.footer>ul>li:first-child>ul>li>a
+{
+	display: block;
+}
+.footer>ul>li:nth-child(2)
+{
+	height:1rem;
+	width:1.05rem;
+	margin:0 auto;
+	margin-top: 0.4rem;
+	border-bottom:0.01rem solid #c3c1c1;
+	border-top:0.01rem solid #c3c1c1;
+}
+.footer>ul>li:nth-child(2)>ul
+{
+	width:100%;
+	height:100%;
+}
+.footer>ul>li:nth-child(2)>ul>li
+{
+	width:0.8rem;
+	font:0.12rem "Adobe 黑体 Std";
+	margin:0 auto;
+}
+.footer>ul>li:nth-child(2)>ul>li:first-child
+{
+	margin-top: 0.05rem;
+}
+.footer>ul>li:nth-child(2)>ul>li:last-child
+{
+	margin-top: 0.15rem;
+	margin-left: 0.2rem;
+}
+.footer>ul>li:nth-child(3)
+{
+	width:1.6rem;
+	height:0.3rem;
+	font:0.12rem "Adobe 黑体 Std";
+	margin:0 auto; 
+	margin-top: 0.6rem;
+}
+
+/*-------------------------------图片的效果--------------------------------*/
+.img>li img
+{
+
+}
+.img>li img
+{
+	transition:transform 0.4s 0.1s;
+}
+.img>li img:hover
+{
+	transform:scale(1.1,1.1);
+	box-shadow: 0.01rem 0.01rem 0rem #ccc;
+}
+
+
+
+/*---------------------------中间部分----------------------------*/
+.common
+{
+	margin:0 auto;
+	width:100%; 
+	height:11rem;
+	position:relative;
+}
+
+.common ul li
+{
+	margin-left:0.2rem;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.summary
+{
+	background:rgba(0,0,0,0.3);
+}
+
+.listbox
+{
+	float:left;
+	padding:0.3rem;
+	width:1.69rem; 
+	height:2rem;
+	position:relative;
+	margin-top: 1.3rem;
+}
+.f
+{
+	margin-top: 0.1rem;
+}
+
+.listimg
+{
+	width:260px;
+	height:3rem;
+	position:relative;
+	overflow:hidden;
+}
+.img
+{
+	height:1.5rem;
+}
+.listimg img
+{
+	width:1.69rem;
+	height:3rem;
+	top:0;
+	left:0;
+	position:absolute;
+}
+
+.img img
+{
+	height:1.5rem;
+}
+.summary
+{
+	width:1.69rem;
+	height:0.5rem;
+	top:3rem;
+	left:0;
+	position:absolute;
+}
+
+.summarytxt
+{
+	margin:5px 10px;
+	width:1.69rem;
+	height:0.5rem;
+	font-size:0.12rem;
+	color:#fff;
+}
+
+.listinfo
+{
+	_margin-bottom:3px;
+	padding-left:0.1rem;
+	width:1.69rem;
+	font-size:0.12rem;
+	margin-top: 0.15rem;
+}
+
+.listinfo a
+{
+	font-size:0.12rem;
+}
+
+.listtitle
+{
+	float:left;
+	margin-top:0.08rem;
+	width:1.69rem;
+	font-size:0.14rem;
+}
+
+.listtitle a
+{
+	font-size:0.14rem;
+}
+
+.listtitle a:hover
+{
+	color:#f55555;
+}
+
+.listtag
+{
+	float:left;
+	width:1.69rem;
+	color:#999;
+	margin-top: 0.1rem;
+}
+
+.listtag a
+{
+	color:#999;
+}
+
+.listtag a:hover
+{
+	color:#2ad2bb;
+}
+
+.summarytxt p
+{
+	display: block;
+	margin-left: 0.5rem;
+	margin-top: 0.15rem;
+}

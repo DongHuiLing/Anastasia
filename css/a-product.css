@@ -1,0 +1,493 @@
+/*第一步复位*/
+body,ul,li,h1,h2,h3,h4,h5,h6
+{
+	padding: 0;
+	margin:0;
+}
+a
+{
+	text-decoration: none !important;
+	color:#000;
+}
+ul
+{
+	list-style:none;
+}
+html
+{
+	font-size: 100px;
+}
+
+/*---------------------导航条部分----------------------------*/
+.container
+{
+	width:100%;
+	height:auto !important;
+}
+.container>.nav
+{
+	width:100%;
+	height:0.6rem;
+	background: #170c10;
+}
+.container>.nav a
+{
+	display: block;
+	font:bold 0.15rem "微软雅黑";
+	color:#b9afae;
+	margin-top: 0.12rem;
+}
+.container>.nav>ul
+{
+	width:100%;
+	height:100%;
+}
+.container>.nav>ul>li
+{
+	float:left;
+	height:100%;
+}
+
+.container>.nav>ul>li:nth-child(1)
+{
+	height:100%;
+	width:15%;
+}
+.container>.nav>ul>li:nth-child(1)>a
+{
+	font:bold 0.2rem "微软雅黑";
+	color:#fff;	
+	margin-left: 18%;
+	
+}
+.container>.nav>ul>li:nth-child(2)
+{
+	width:45%;
+	margin-left: 4%;
+}
+.container>.nav>ul>li:nth-child(2)>ul
+{
+	height:100%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li
+{
+	height:100%;
+	width:19%;
+	float:left;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li:first-child
+{
+	width:10%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li:first-child>a
+{
+	margin-left:8%;
+}
+.container>.nav>ul>li:nth-child(2)>ul>li>a
+{
+	margin-top: 0.17rem;
+	margin-left:12%; 
+}
+.container>.nav>ul>li:nth-child(3)
+{
+	height:100%;
+	width:35%;
+}
+.container>.nav>ul>li:nth-child(3)>ul
+{
+	height:100%;
+	width:100%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li
+{
+	height:100%;
+	float:left;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li>a
+{
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(1)
+{
+	width:6%;
+	margin-right: 1%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(1)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(2)
+{
+	width:6%;
+	margin-right: 1%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(2)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(3)
+{
+	width:35%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(4)
+{
+	width:7%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(4)>a
+{
+	margin-top: 0.18rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(5)
+{
+	width:40%;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li>a
+{
+	font:0.15rem "微软雅黑";
+	margin-top: 0.15rem;
+}
+.container>.nav>ul>li:nth-child(3)>ul>li:nth-child(3)>a
+{
+	
+	font:0.18rem "Buxton Sketch";
+}
+
+
+/*-----------------------------content------------------------------------*/
+.content
+{
+	width:10.3rem;
+	margin:0 auto;
+	height:auto !important;
+}
+.content>h1
+{
+	text-align: center;
+	font:bold 0.18rem "微软雅黑";
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.content li
+{
+	font:0.13rem "微软雅黑";
+}
+.content>ul
+{
+	overflow: auto;
+	width:100%;
+	margin-top: 0.5rem;
+}
+.content>ul>li
+{
+	width:3rem;
+	float:left;
+	margin-left: 1.3rem;
+}
+.hide
+{
+	display: none;
+}
+.content>ul>li:first-child
+{
+	margin-right: 0.4rem;
+}
+.content>ul>li:first-child>ul>li
+{
+
+}
+.content>ul>li:first-child>ul>li:first-child
+{
+	width:2.81rem;
+	height:2.3rem;
+}
+.content>ul>li:first-child>ul>li:first-child>ul
+{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+.content>ul>li:first-child>ul>li:first-child>ul>li
+{
+	width:2.81rem;
+	height:2.3rem;
+	margin:0;
+}
+.content>ul>li:first-child>ul>li:first-child>ul>li img
+{
+	width:2.81rem;
+	height:2.3rem;
+	display: block;
+	margin:0;
+}
+.content>ul>li:first-child>ul>li>ul>li
+{
+	float:left;
+	margin-left: 0.4rem;
+}
+.content>ul>li:first-child>ul>li
+{
+	width:3rem;
+}
+.content>ul>li:first-child>ul>li>ul
+{
+	margin-top: 0.8rem;
+	width:3rem;
+	height:0.45rem;
+}
+.content>ul>li:first-child>ul>li:last-child>ul>li
+{
+	width:0.45rem;
+	height:0.4rem;
+	border:1px solid #ccc;
+}
+/*.content>ul>li:first-child>ul>li:last-child>ul>li:hover
+{
+	border:1px solid #ccc;
+}*/
+.content>ul>li:first-child>ul>li:last-child>ul>li:last-child
+{
+	text-align: center;
+	width:0.7rem;
+	height:0.3rem;
+	background: #000;
+}
+.content>ul>li:first-child>ul>li>ul>li:last-child>a
+{
+	display: block;
+	margin-top: 0.05rem;
+	color:#fff;
+}
+.content>ul>li:last-child>ul>li
+{
+	margin-top:0.1rem;
+}
+.content>ul>li:last-child>ul>li:last-child
+{
+	width:1.3rem;
+	height:0.4rem;
+	background: #000;
+	color:#fff;
+	overflow: auto;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+.content>ul>li:last-child>ul>li:last-child>span
+{
+	display: block;
+	margin-top: 0.1rem;
+}
+.content>ul>li:last-child>ul>li:last-child>span:hover
+{
+	color:#fff;
+	cursor: pointer;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)
+{
+	height:0.3rem;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul
+{
+	height:100%;
+	overflow: auto;
+}
+.content>ul>li:last-child>ul>li:nth-child(1)>span:hover
+{
+	color:#000 !important;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li
+{
+	float:left;
+	height:100%;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child
+{
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul
+{
+
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul>li
+{
+	float:left;
+	background: #a5a5a5;
+	margin-right: 0rem;
+	width:0.2rem;
+	height:0.21rem;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul>li>img
+{
+	display: block;
+	margin:0 auto;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul>li:first-child>img
+{
+	margin-top: 0.1rem;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul>li:last-child>img
+{
+	margin-top: 0.05rem;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul>li>input
+{
+	width:0.2rem;
+	text-align: center;
+}
+.content>ul>li:last-child>ul>li:nth-child(10)>ul>li:last-child>ul>li:nth-child(2)
+{
+	margin-right: 0.04rem;
+	height:0.21rem;
+}
+
+
+
+/*---------------------content-content-------------------------------*/
+.content-content
+{
+	width:100%;
+	height:auto !important;
+	border-top:0.01rem solid #dedede;
+	margin-top: 0.3rem;
+}
+.content-content>h2
+{
+	margin-top: 0.2rem;
+	font:0.24rem "微软雅黑";
+	text-align: center;
+}
+.content-content>ul:nth-child(2)
+{
+	overflow: auto;
+	margin-top: 0.4rem;
+}
+.content-content>ul:nth-child(2)>li
+{
+	
+}
+.content-content>ul:nth-child(2)>li:first-child
+{
+	width:4.5rem;
+	height:3rem;
+	float:left;
+	margin-top: 0.2rem;
+}
+.content-content>ul:nth-child(2)>li:last-child
+{
+	float:right;
+}
+
+.content-content>ul:nth-child(2)>li:last-child>img
+				{
+					-moz-transition:all 0.6s;  
+					-webkit-transition:all 0.6s;  
+					-ms-transition:all 0.6s; 
+					-o-transition:all 0.6s;
+					transition:all 0.6s;    
+				}
+.content-content>ul:nth-child(2)>li:last-child>img:hover
+{
+	cursor:linear;
+	transform:rotate(-80deg) scale(0.3,0.3) skew(0,0);
+}
+
+
+.content-content>ul:nth-child(2)>li:first-child>ul>li>span
+{
+	font:0.16rem "微软雅黑";
+}
+.content-content>ul:nth-child(2)>li:first-child>ul>li:nth-child(2)
+{
+	margin-top: 0.12rem;
+}
+.content-content>ul:nth-child(2)>li:first-child>ul>li:nth-child(3)
+{
+	margin-top: 0.5rem;
+}
+.content-content>ul:nth-child(2)>li:first-child>ul>li:nth-child(4)
+{
+	margin-top: 0.12rem;
+}
+
+.content-content>ul:nth-child(3)
+{
+	width:9rem;
+	height:4rem;
+	background: url(../image/ba.png);
+	margin:0 auto;
+	margin-top: 0.5rem;
+	overflow: auto;
+}
+.content-content>ul:nth-child(3)>ul>li
+{
+	float:left;
+	width:4.25rem;
+	margin-left: 1rem;
+}
+.content-content>ul:nth-child(3)>ul>li:first-child
+{
+	width:2rem;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}
+
+.content-content>ul:nth-child(3)>ul>li:first-child>img
+{
+		
+	animation-name:dd;                    
+	animation-timing-function:linear;    
+	animation-duration:3s;                
+	animation-delay:1s;                  
+	animation-iteration-count:infinite;   
+}
+@keyframes 
+dd
+{
+	50%
+	{
+		transform:scale(1.5,1.5);
+	}
+
+}
+
+
+
+
+.content-content>ul:nth-child(3)>ul>li:last-child>ul>li:first-child
+{
+	margin-top: 1rem;
+	font:0.18rem "微软雅黑";
+}
+.content-content>ul:nth-child(3)>ul>li:last-child>ul>li:nth-child(2)
+{
+	margin-top: 0.15rem;
+	font:0.18rem "微软雅黑";
+}
+.content-content>ul:nth-child(3)>ul>li:last-child>ul>>li:nth-child(3)
+{
+	margin-top: 0.35rem;
+}
+.content-content>ul:nth-child(3)>ul>li:last-child>ul>>li:nth-child(4)
+{
+	margin-top: 0.3rem;
+}
+.content-content>ul:nth-child(3)>ul>li:last-child>ul>>li:nth-child(4)>span
+{
+	margin-left: 0.2rem;
+	background: #fff;
+	padding: 0.03rem;
+}
+
+
+/*------------------------footer------------------*/
+.footer
+{
+	width:100%;
+	height:0.3rem;
+	margin-top: 0.6rem;
+}
+.footer>p
+{
+	width:1.6rem;
+	height:100%;
+	margin:0 auto;
+	font:0.12rem "Adobe 黑体 Std";
+}

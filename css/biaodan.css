@@ -1,0 +1,399 @@
+/*第一步复位*/
+body,ul,li,h1,h2,h3,h4,h5,h6
+{
+	padding: 0;
+	margin:0;
+}
+a
+{
+	text-decoration: none !important;
+	color:#000;
+}
+ul
+{
+	list-style:none;
+}
+html
+{
+	font-size: 100px;
+}
+
+/*---------------------导航条部分----------------------------*/
+section
+{
+	width:100%;
+	height:auto !important;
+}
+section>nav
+{
+	width:100%;
+	height:0.6rem;
+	background: #170c10;
+}
+section>nav a
+{
+	display: block;
+	font:bold 0.15rem "微软雅黑";
+	color:#b9afae;
+	margin-top: 0.12rem;
+}
+section>nav>ul
+{
+	width:100%;
+	height:100%;
+}
+section>nav>ul>li
+{
+	float:left;
+	height:100%;
+}
+
+section>nav>ul>li:nth-child(1)
+{
+	height:100%;
+	width:15%;
+}
+section>nav>ul>li:nth-child(1)>a
+{
+	font:bold 0.2rem "微软雅黑";
+	color:#fff;	
+	margin-left: 18%;
+	
+}
+section>nav>ul>li:nth-child(2)
+{
+	width:45%;
+	margin-left: 4%;
+}
+section>nav>ul>li:nth-child(2)>ul
+{
+	height:100%;
+}
+section>nav>ul>li:nth-child(2)>ul>li
+{
+	height:100%;
+	width:19%;
+	float:left;
+}
+section>nav>ul>li:nth-child(2)>ul>li:first-child
+{
+	width:10%;
+}
+section>nav>ul>li:nth-child(2)>ul>li:first-child>a
+{
+	margin-left:8%;
+}
+section>nav>ul>li:nth-child(2)>ul>li>a
+{
+	margin-top: 0.17rem;
+	margin-left:12%; 
+}
+section>nav>ul>li:nth-child(3)
+{
+	height:100%;
+	width:35%;
+}
+section>nav>ul>li:nth-child(3)>ul
+{
+	height:100%;
+	width:100%;
+}
+section>nav>ul>li:nth-child(3)>ul>li
+{
+	height:100%;
+	float:left;
+}
+section>nav li
+{
+	text-align: center;
+}
+section>nav>ul>li:nth-child(3)>ul>li>a
+{
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(1)
+{
+	width:6%;
+	margin-right: 1%;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(1)>a
+{
+	margin-top: 0.18rem;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(2)
+{
+	width:6%;
+	margin-right: 1%;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(2)>a
+{
+	margin-top: 0.18rem;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(3)
+{
+	width:35%;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(4)
+{
+	width:7%;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(4)>a
+{
+	margin-top: 0.18rem;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(5)
+{
+	width:40%;
+}
+section>nav>ul>li:nth-child(3)>ul>li>a
+{
+	font:0.15rem "微软雅黑";
+	margin-top: 0.15rem;
+}
+section>nav>ul>li:nth-child(3)>ul>li:nth-child(3)>a
+{
+	
+	font:0.18rem "Buxton Sketch";
+}
+
+section span:hover
+{
+	color:#3f50f7;
+}
+section a:hover
+{
+	color:#3f50f7;
+}
+section nav a:hover
+{
+	color:#7f400d;
+}
+
+section>nav>ul>li:first-child a:hover
+{
+	border-bottom:none !important;
+}
+section>nav>ul>li:nth-child(3) a:hover
+{
+	border-bottom:none !important;
+
+}
+section>nav a:hover
+{
+	border-bottom:0.03rem solid #fff !important;
+	color:#fff !important;
+}
+
+
+/*------------------------------container-------------------------------------*/
+.container
+{
+	width:100%;
+	height:auto !important;
+	overflow: auto;
+}
+/*-------------------------------left------------------------------------------*/
+.container>.left
+{
+	width:70%;
+	height:auto !important;
+	float:left;
+}
+.container>.left>ul
+{
+	width:90%;
+	border-bottom: 0.01rem solid #bbbbbb;
+	overflow: auto;
+	margin-top: 0.4rem;
+	margin-left: 0.2rem;
+	/*border:1px solid #f00;*/
+}
+.container>.left>ul>li:first-child
+{
+	font:0.24rem "微软雅黑";
+	width:3.1rem;
+	float:left;
+}
+.container>.left>ul>li:last-child
+{
+	width:1.5rem;
+	height:0.4rem;
+	float:right;
+	background: #c7a987;
+	margin-bottom: 0.05rem;
+	text-align: center;
+}
+.container>.left>ul>li:last-child>a
+{
+	display: block;
+	font:0.16rem "微软雅黑";
+	/*width:1.2rem;*/
+	color:#fff;
+	margin-top: 0.08rem;
+}
+.container>.left>h3
+{
+	font:0.14rem "微软雅黑";
+	margin-top: 0.4rem;
+	margin-left: 0.2rem;
+	width:90%;
+}
+
+.container>.left>form
+{
+	width:90%;
+	font:0.12rem "微软雅黑";
+	margin-left: 0.2rem;
+}
+.container>.left>form>p
+{
+	font:0.18rem "微软雅黑";
+	margin-top: 0.5rem;
+}
+.container>.left>form>div input
+{
+	width:3rem;
+	margin-top: 0.15rem;
+	margin-left: 0.3rem;
+}
+
+.num1
+{
+	margin-left: 0.54rem !important;
+}
+.num2
+{
+	margin-left: 0.54rem !important;
+}
+.num3
+{
+	margin-left: 0.48rem !important;
+}
+.num4
+{
+	margin-left: 0.02rem !important;
+}
+.num5
+{
+	margin-left: 0.54rem !important;
+}
+.last
+{
+	width:0.3rem !important;
+}
+.tijiao
+{
+	display: block;
+	width:0.7rem !important;
+	height:0.25rem !important;
+	background: #c7a987;
+	color:#fff;
+	font:bold 0.14rem "微软雅黑";
+}
+
+/*-------------------------------right------------------------------*/
+.container>.right
+{
+	float:right;
+	width:30%;
+	height:10rem;
+	background: #f0f0f0;
+}
+.container>.right>ul
+{
+	width:80%;
+	height:auto !important;
+	margin:0 auto;
+	margin-top: 0.3rem;
+}
+.container>.right>ul>li
+{
+	
+}
+.container>.right>ul>li:first-child
+{
+	color:#c7a987;
+	font:0.14rem "微软雅黑";
+}
+.container>.right>ul>li:nth-child(2)
+{
+	color:#c7a987;
+	font:0.14rem "微软雅黑";
+	margin-top: 0.15rem;
+	overflow: auto;
+}
+.container>.right>ul>li:nth-child(2) img
+{
+	-moz-transition:all 0.4s;  
+	-webkit-transition:all 0.4s;  
+	-ms-transition:all 0.4s; 
+	-o-transition:all 0.4s;
+	transition:all 0.4s;    /*标准的写在最后面*/
+}
+.container>.right>ul>li:nth-child(2) img:hover
+{
+	cursor:linear;
+	transform:rotate(360deg) scale(0.9,0.9) skew(0,0);
+}
+.container>.right>ul>li:nth-child(2)>span
+{
+	display: block;
+	height:100%;
+	width:2rem;
+	float:right;
+	margin-right:0.95rem;
+	margin-top: 0.03rem;
+}
+.container>.right>ul>li:nth-child(3)
+{
+	margin-top: 0.3rem;
+	background: #ebe8e3;
+}
+.container>.right>ul>li:nth-child(3)>ul
+{
+	width:100%;
+	height:auto !important;
+	margin-top: 0.2rem;
+}
+.container>.right>ul>li:nth-child(3)>ul>li
+{
+	font:0.12rem "微软雅黑";
+	width:90%;
+	height:0.15rem;
+	margin:0 auto;
+	margin-bottom: 0.1rem;
+}
+.container>.right>ul>li:nth-child(3)>ul>li:first-child
+{
+	margin-top: 0.2rem;
+}
+.container>.right>ul>li:nth-child(3)>ul>li:last-child
+{
+}
+.container>.right>ul>li:nth-child(4)
+{
+	font:0.14rem "微软雅黑";
+	margin-top: 0.4rem;
+	border-bottom: 0.01rem solid #bbbb8f;
+	margin-bottom: 5rem;
+}
+.container>.right>ul>li:nth-child(4)>span
+{
+	display: block;
+	margin-bottom: 0.06rem;
+}
+
+/*------------------------footer------------------*/
+footer
+{
+	width:100%;
+	height:0.3rem;
+	margin-top: 0.5rem;
+}
+footer>p
+{
+	width:1.6rem;
+	height:100%;
+	margin:0 auto;
+	font:0.12rem "Adobe 黑体 Std";
+}
+
